@@ -1,0 +1,7 @@
+#avoid commit certs
+/mosquitto/config/certs/*.crt
+/mosquitto/config/certs/*.key
+/mosquitto/config/certs/*.certs
+/mosquitto/config/certs/*.srl
+/mosquitto/config/certs/*.csr
+/flutter_example/assets/ca.crt
